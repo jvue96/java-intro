@@ -7,7 +7,7 @@ public class hello {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello World!");
         System.out.println(addNumbers(5, 5));
-        helloName();
+        System.out.println(helloName("Juno", "Vue"));
     }
 
     // Prints sum of integers 
@@ -26,18 +26,8 @@ public class hello {
     }
 
     // test 
-/*     static void helloName() {
-        String Juno = "Juno"; 
-        String Vue = "Vue";
-    
-        // test if statement 
-        if(Juno = "Juno") {
-            System.out.println(Juno + " " + Vue);
+        public static String helloName(String firstName, String lastName) {
+            String person = (firstName + " " + lastName);
+            return person; 
         }
-    } */
-
-
-
-
-
-}
+    } 
